@@ -11,7 +11,7 @@ export default {
 	input: 'src/main.ts',
 	output: [
 		{
-			name: 'flyapi',
+			name: 'masonry-ts',
 			file: 'dist/main.umd.cjs',
 			format: 'umd',
 		},
