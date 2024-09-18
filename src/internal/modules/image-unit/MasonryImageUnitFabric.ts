@@ -1,6 +1,6 @@
 import type { IMasonryUnit, IMasonryUnitFabric, ImageUnit } from 'src/internal/types'
 import type { Size } from 'src/internal/utils/image'
-import { MasonryUnitImage } from 'src/internal/modules/MasonryImageUnit'
+import { MasonryUnitImage } from 'src/internal/modules/image-unit/MasonryImageUnit'
 import uniqid from 'uniqid'
 import { getImageSizes } from 'src/internal/utils/image'
 import { isNil } from 'src/internal/utils/conditions'

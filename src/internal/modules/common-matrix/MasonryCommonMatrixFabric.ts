@@ -1,9 +1,8 @@
 import type { MasonryMatrixFabric, IMasonryUnit, IMasonryMatrix } from 'src/internal/types'
 import { repeat } from 'src/internal/utils/array'
-import { MasonryMatrix } from './MasonryCommonMatrix'
+import { MasonryMatrix } from 'src/internal/modules/common-matrix/MasonryCommonMatrix'
+import { DEFAULT_ROW_AMOUNT } from './constants'
 import uniqid from 'uniqid'
-
-const DEFAULT_ROW_AMOUNT = 3
 
 export class MasonryCommonMatrixFabric implements MasonryMatrixFabric {
 	create(units: IMasonryUnit[], rowAmount: number = DEFAULT_ROW_AMOUNT, initialRowRatioMap?: number[]): IMasonryMatrix {
