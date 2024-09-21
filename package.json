@@ -46,7 +46,8 @@
 		"prepare": "husky"
 	},
 	"lint-staged": {
-		"./src/**/*.{js,ts}": "eslint --fix"
+		"./src/**/*.{js,ts}": "eslint --fix",
+		"./tests/**/*.{js,ts}": "eslint --fix"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.25.2",
