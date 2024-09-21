@@ -1,6 +1,6 @@
-import type { IMasonryUnit, IMasonryMatrix } from 'src/internal/types'
+import type { IMasonryUnit, IMasonryMatrix } from '@/src/internal/types'
 
-export class MasonryMatrix implements IMasonryMatrix {
+export class MasonryCommonMatrix implements IMasonryMatrix {
 	private _id: string
 	private _matrix: IMasonryUnit[][]
 	private _rowRatioMap: number[]

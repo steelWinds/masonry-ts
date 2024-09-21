@@ -34,7 +34,7 @@ export default {
 		typescript({
 
 			exclude: [
-				resolvePath('src', '__tests__', '**', '*.spec.ts'),
+				resolvePath('tests', '**', '*.spec.ts'),
 			],
 		}),
 		babel({

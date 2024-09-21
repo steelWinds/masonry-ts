@@ -2,9 +2,10 @@
   "compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-			"@/*": ["@/*"],
+			"src/*": ["./src/*"],
+			"@/*": ["./*"],
 		},
-		"rootDir": "src",
+		"rootDir": ".",
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
@@ -28,7 +29,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "tests/**/*.ts", "tests/types/global.d.ts"],
 	"tsc-alias": {
     "verbose": true,
   }
